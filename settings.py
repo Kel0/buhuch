@@ -14,6 +14,7 @@ env_path = Path('.') / '.env'
 load_dotenv(dotenv_path=env_path)
 
 BILLS_SITE_URL = str(os.getenv("BILLS_LINK"))
+MIN_SALARY_LINK = str(os.getenv("MIN_SALARY_LINK"))
 HEADERS = {
     "accept": "*/*",
     "user-agent": (
