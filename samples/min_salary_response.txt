@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+    <!-- /stavki/MZP?ELEMENT_CODE=MZP -->
+	<title>Минимальная заработная плата (МЗП) с 2000 по 2020 год</title>
+	<meta name="title" content="Минимальная заработная плата (МЗП) с 2000 по 2020 год" />
+	<meta property="og:title" content="Минимальная заработная плата (МЗП) с 2000 по 2020 год" />
+	<meta property="og:description" content="" />
+	<meta property="og:url" content="https://uchet.kz/stavki/MZP?ELEMENT_CODE=MZP" />
+
+            <meta property="og:image" content="https://uchet.kz/bitrix/templates/2016/images/round_logo.png">
+    	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="google-site-verification" content="Ztd28xunmGsCVJz0P-VVd9v1TbN8eQGHjC4znAQtRow" />
+    <meta name="yandex-verification" content="4d21f18e47fe5174" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+
+	<link rel="icon" type="image/png" href="https://uchet.kz/bitrix/templates/2016/images/round_logo.png" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<link rel="apple-touch-icon" sizes="76x76" href="https://uchet.kz/bitrix/templates/2016/images/round_logo.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://uchet.kz/bitrix/templates/2016/images/round_logo.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://uchet.kz/bitrix/templates/2016/images/round_logo.png">
+	<link rel="manifest" href="/bitrix/templates/2016/manifest.json">
+	<link rel="mask-icon" href="/bitrix/templates/2016/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/manifest.json" />
+        	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="Минимальная зарплата в Казахстане в 2019 году" />
+<link href="/bitrix/js/main/core/css/core.min.css?15764541982854" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
+
+
+<link href="/bitrix/css/main/bootstrap.min.css?1576454229121326" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/css/main/font-awesome.min.css?157645422923748" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/2016/components/bitrix/breadcrumb/.default/style.min.css?1576454199448" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/2016/components/bitrix/news/.default/bitrix/news.detail/.default/style.css?157645419966" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/2016/components/bitrix/news.list/main/style.css?1576454199108" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/2016/css/animate.css?157645419973844" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/2016/css/font.css?1576454199124" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/2016/js/select2/select2.css?157645419919232" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/2016/js/fuelux/fuelux.css?15764541994025" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/2016/css/toastr.min.css?15764541995997" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/2016/css/plugin.css?15764541996714" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/2016/css/app.css?158865396658811" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/2016/components/bitrix/search.title/.default/style.css?15764541992635" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+
+
+
+
+
+
+		<!--[if lt IE 9]>
+							<![endif]-->
+	</head>
+<body>
+	<div id="panel" class="hidden-print">
+        	</div>
+<section class="hbox stretch">
+	<!-- .aside -->
+	<aside class="aside-md hidden-print bg-dark dker" id="nav">
+		<section class="vbox general">
+			<header class="nav-bar nav-bar-fixed-top" style="box-shadow:0 .125rem .25rem rgba(0,0,0,.075) !important">
+				<a class="btn btn-link visible-xs visible-sm" data-toggle="class:nav-off-screen" data-target="#nav">
+					<i class="fa fa-bars"></i>
+				</a>
+				<a href="https://uchet.kz" class="bg-white nav-brand"><img src="/bitrix/templates/2016/images/uchet_2020_logo.svg" style="max-height: 43px;"></a>
+
+								<a class="btn btn-link visible-xs visible-sm" data-toggle="class:show" data-target=".user-auth">
+					<i class="fa fa-user"></i>
+				</a>
+			</header>
+
+			<section>
+				<!-- user -->
+				<div class="bg-black dker wrapper hidden-vertical hidden-xs hidden-sm user-auth ">
+	<a href="/signup.php" class="btn btn-success btn-sm btn-block m-b-sm">Подписаться</a>
+
+	<form method="post" target="_top" action="/stavki/MZP?ELEMENT_CODE=MZP" role="form">
+			<input type="hidden" name="backurl" value="/stavki/MZP?ELEMENT_CODE=MZP"/>
+
+
+		<input type="hidden" name="AUTH_FORM" value="Y" />
+		<input type="hidden" name="TYPE" value="AUTH" />
+
+		<div class="form-group-sm">
+			<label class="font-thin text-sm">Логин:</label>
+			<input type="text" name="USER_LOGIN" tabindex="1" class="form-control input-sm no-radius no-border" placeholder="логин">
+		</div>
+
+		<div class="form-group-sm text-sm m-t-xs">
+			<label class="font-thin">Пароль:</label>
+			<input type="password" name="USER_PASSWORD" tabindex="2" class="form-control input-sm no-radius no-border" placeholder="пароль">
+		</div>
+
+
+		<div class="checkbox m-t-xs">
+			<label><input type="checkbox" name="USER_REMEMBER" value="Y" tabindex="4" checked="checked">запомнить меня</label>
+		</div>
+		<div class="text-right">
+			<button type="submit" class="btn btn-xs no-radius no-border text-sm" name="Login" style="background-color:#b71c1c; color:#fff; padding:3px 10px 2px;">
+				ВХОД			</button>
+		</div>
+	</form>
+	<div class="text-center m-t-xs">
+		<a href="/auth/?forgot_password=yes" class="text-sm">Забыли свой пароль?</a>
+	</div>
+</div>
+
+				<!-- / user -->
+
+
+<nav class="nav-primary hidden-xs hidden-sm">
+  <ul class="nav">
+			<li class="active "><a href="/" target="" title="Учёт.kz Всё для бухгалтера"><i class="fa fa-home hide"></i><span>На главную</span></a></li>
+
+			<li class="dropdown-submenu "><a href="/services/" target="" title="Интерактивные сервисы"><i class="fa fa-bars hide"></i><span>МАСТЕР сервисы</span></a></li>
+
+			<li class="dropdown-submenu "><a href="https://zakon.uchet.kz/" target="_blank" title="Законодательство"><i class="fa fa-briefcase hide"></i><span>Законодательство</span></a></li>
+
+			<li class="dropdown-submenu "><a href="/hrassistant/v2" target="" title="Кадровый помощник"><i class="fa fa-users hide"></i><span>Кадровый помощник</span></a></li>
+
+			<li class="dropdown-submenu "><a href="/branch/" target="" title="Бухгалтерский учет в отраслях"><i class="fa fa-bars hide"></i><span>Учёт в отраслях</span></a></li>
+
+			<li class="dropdown-submenu "><a href="/gov/" target="" title="Блоги Министров"><i class="fa fa-bars hide"></i><span>Блоги Министров</span></a></li>
+
+			<li class="dropdown-submenu "><a href="/lawer/" target="" title="Юридический помощник"><i class="fa fa-bars hide"></i><span>Юр.помощник</span></a></li>
+
+			<li class="dropdown-submenu "><a href="/webinar/" target="" title="Вебинары"><i class="fa fa-eye hide"></i><span>Вебинары</span></a></li>
+
+			<li class="dropdown-submenu "><a href="/learning/" target="" title="Обучение"><i class="fa fa-graduation-cap hide"></i><span>Обучение</span></a></li>
+
+
+                    <li>
+                        <a href="http://bit.ly/2L1s5aa" target="" title="Учёт.Бухгалтерия">
+                            <img src="/bitrix/templates/2016/images/uchet_2020_buh_white.svg" width="142">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ukassa.kz" target="" title="Учёт.Касса">
+                            <img src="/bitrix/templates/2016/images/uchet_2020_kassa_white.svg" width="160">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://bit.ly/2KXoWIj" target="" title="Учёт.ЭДО">
+                            <img src="/bitrix/templates/2016/images/uchet_2020_edo_white.svg" width="85">
+                        </a>
+                    </li>
+
+  </ul>
+</nav>
+
+			</section>
+			<footer class="footer visible-lg">
+			<section class="padder-v text-center">
+	<!-- <small>2006 - 2020 &copy; <b>Учёт</b></small><br> -->
+	<small>&copy; <b>Учёт</b> Всё для бухгалтера<br></small>
+	<a href="/agreement/" target="_blank" class="text-sm">Для подписчиков</a>
+</section>			</footer>
+
+		</section>
+	</aside>
+	<section id="content">
+		<section class="vbox general-m">
+			<header class="hidden-print bg-white" id="uHeader">
+				<div class="row" style="min-height:70px;">
+					<div class="col-lg-8 col-md-7">
+												<div class="wrapper-sm">
+	<div id="title-search">
+		<form action="/search/index.php" role="search">
+			<div class="form-group no-radius">
+				<div class="input-group">
+					<input id="title-search-input" type="text" class="form-control form-search no-radius no-border" placeholder="Что желаете найти?" name="q" value="" maxlength="50" autocomplete="off">
+					<span class="input-group-btn">
+						<button type="submit" class="btn btn-search no-radius" name="s"><i class="fa fa-search"></i> Искать</button>
+					</span>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+											</div>
+					<div class="col-lg-4 col-md-5 hidden-sm">
+
+<ul class="nav navbar-nav navbar-right padder help-desk hidden-xs">
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="min-width:300px;">
+	<span class="thumb avatar pull-left m-r-sm">
+		<img src="/upload/main/7cf/7cfd1a88827e0b7a135f19226f559d98.jpg" alt="">
+		</span>
+	Я, <strong>Бондаренко Катерина</strong><br>
+
+		<span class="text-muted" style="font-size:12px; margin:0; padding:0; line-height:1;">помогу Вам оформить подписку</span>
+		<b class="caret pull-right"></b>
+    </a>
+<section class="dropdown-menu m-l-sm animated fadeInBottom" style="left:0; margin-left:0;">
+  <div class="arrow top hidden-xs"></div>
+  <section class="panel">
+
+    <div class="list-group">
+      <span class="media list-group-item">
+        <span class="pull-left thumb-sm">
+          <i class="fa fa-phone fa-2x m-t-sm m-l-xs text-success"></i>
+        </span>
+        <span class="media-body m-b-none">
+                      Чтобы связаться со мной:<br>
+            <small class="text-muted">+7 727 3507474 вн 001<br>+7 701 7372713</small>
+                  </span>
+      </span>
+      <span class="media list-group-item">
+        <span class="pull-left thumb-sm">
+          <i class="fa fa-briefcase fa-2x m-t-sm" aria-hidden="true"></i>
+        </span>
+        <span class="media-body m-b-none">
+            По вопросам документов:<br>
+            <small class="text-muted">+7 727 3507474 вн 003</small>
+        </span>
+      </span>
+      <a a href="/contacts.php" target="_blank" class="media list-group-item">
+        <span class="pull-left thumb-sm">
+          <i class="fa fa-map-marker fa-2x m-t-xs m-l-xs"></i>
+        </span>
+        <span class="media-body m-b-none">
+            Наш адрес:<br>
+            <small class="text-muted">г.Алматы, ул.Жарокова 41, 6 этаж</small>
+        </span>
+      </a>
+    </div>
+  </section>
+</section>
+
+  </li>
+</ul>					</div>
+				</div>
+
+
+				<!-- тут был меню -->
+
+<button type="button" class="visible-xs-block btn btn-block btn-link text-right active" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <i class="fa fa-angle-double-up text" aria-hidden="true"></i> <i class="fa fa-angle-double-down text-active" aria-hidden="true"></i> Навигация
+</button>
+
+<div class="bg-black dker collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+
+							<li class="dropdown  ">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Справочник</span></a>
+					<ul class="dropdown-menu">
+															<li class=" "><a href="/spravochnik/index.php?SECTION_ID=6749">Классификаторы</a></li>
+																		<li class=" "><a href="/spravochnik/index.php?SECTION_ID=6750">Коды</a></li>
+																		<li class=" "><a href="/spravochnik/index.php?SECTION_ID=6753">Ставки и платы</a></li>
+																		<li class=" "><a href="/spravochnik/index.php?SECTION_ID=6762">Нормы и расходы</a></li>
+																		<li class=" "><a href="/spravochnik/statistical_classification.php">Статистические классификации</a></li>
+																		<li class=" "><a href="/helpful/detail.php?EID=56060">ЕТКС</a></li>
+																		<li class=" "><a href="/spravochnik/index.php?SECTION_ID=6752">Конвенции, соглашения</a></li>
+																		<li class=" "><a href="/spravochnik/index.php?SECTION_ID=6764">Типовой план счетов</a></li>
+																		<li class=" "><a href="/spravochnik/index.php?SECTION_ID=6774">Штрафы</a></li>
+																		<li class=" "><a href="/spravochnik/index.php?SECTION_ID=7499">Формулы и расчеты</a></li>
+																		<li class=" "><a href="/spravochnik/proverki/">Проверки</a></li>
+										</ul></li>							<li class="dropdown  ">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Отчеты</span></a>
+					<ul class="dropdown-menu">
+															<li class=" "><a href="/otcheti/fno/index.php">Налоговая отчетность</a></li>
+																		<li class=""><a href="/otcheti/finreport/index.php" >Фин отчетность к ФНО 100.00</a></li>
+																		<li class=" "><a href="/otcheti/stat/index.php">Статистическая отчетность</a></li>
+																		<li class=" "><a href="/otcheti/nalogovie_zayavleniya/index.php">Налоговые заявления</a></li>
+																		<li class=" "><a href="/otcheti/fno/reestr.php">РЕЕСТР ФНО 300.00</a></li>
+										</ul></li>							<li class="dropdown  ">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Стандарты</span></a>
+					<ul class="dropdown-menu">
+															<li class=" "><a href="/standarts/msfo/index.php?SECTION_ID=7530">МСФО</a></li>
+																		<li class=" "><a href="/standarts/nsfo/index.php">НСФО</a></li>
+																		<li class=""><a href="/standarts/msfo/msfoos.php" >МСФООС</a></li>
+																		<li class=" "><a href="/standarts/gosuslugi/index.php">Стандарты оказания госуслуг</a></li>
+										</ul></li>							<li class="dropdown  ">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Консультации</span></a>
+					<ul class="dropdown-menu">
+															<li class=" "><a href="/question/voprosy-po-is-sono/">По ИС СОНО</a></li>
+																		<li class=" "><a href="/question/videootvety-po-1s/">Видеоответы по 1С</a></li>
+																		<li class=" "><a href="/question/voprosy-po-nalogooblozheniyu/">По налогообложению</a></li>
+																		<li class=" "><a href="/question/konsultatsii-po-bukhuchetu/">По бухгалтерскому учету </a></li>
+																		<li class=" "><a href="/question/voprosy-truda/">По труду</a></li>
+																		<li class=" "><a href="/question/pisma-nk-mf-rk/">Письма НК МФ РК</a></li>
+																		<li class=" "><a href="/question/voprosy-po-tamozhennomu-soyuzu/">По таможенному союзу</a></li>
+																		<li class=" "><a href="/question/konsultatsii-nalogovykh-organov/">Налоговых органов РК</a></li>
+																		<li class=" "><a href="/question/voprosy-po-1s/">Вопросы по 1С</a></li>
+										</ul></li>							<li class="dropdown  ">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Делопроизводство</span></a>
+					<ul class="dropdown-menu">
+															<li class=" "><a href="/deloproizvodstvo/index.php?SECTION_ID=6489">Должностные инструкции</a></li>
+																		<li class=" "><a href="/deloproizvodstvo/index.php?SECTION_ID=6267">Типовые договоры</a></li>
+																		<li class=" "><a href="/deloproizvodstvo/index.php?SECTION_ID=6268">Акты</a></li>
+																		<li class=" "><a href="/deloproizvodstvo/detail.php?EID=16306">Регистры бухучета</a></li>
+																		<li class=" "><a href="/deloproizvodstvo/index.php?SECTION_ID=6289">Налоговые регистры</a></li>
+																		<li class=" "><a href="/deloproizvodstvo/index.php?SECTION_ID=6291">Налоговая учетная политика</a></li>
+																		<li class=" "><a href="/deloproizvodstvo/index.php?SECTION_ID=6272">Приказы, распоряжения</a></li>
+																		<li class=" "><a href="/deloproizvodstvo/index.php?SECTION_ID=7504">Формы первичных документов</a></li>
+										</ul></li>											<li class="  "><a href="/goszakup/">Гос.закупки</a></li>
+																		<li class="  bg-danger"><a href="/covid-19/">COVID-19&Бизнес</a></li>
+																		<li class="  "><a href="/fran/">Франшиза Учёт</a></li>
+								</ul>
+	<div class="clearfix"></div>
+
+</div>
+
+			</header>
+<section class="wrapper scrollable">
+
+
+
+<section class="padder hidden-print"><div class="bx-breadcrumb">
+			<div class="bx-breadcrumb-item" id="bx_breadcrumb_0" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" itemref="bx_breadcrumb_1">
+
+				<a href="/" title="Учёт.kz" itemprop="url">
+					<span itemprop="title">Учёт.kz</span>
+				</a>
+			</div>
+			<div class="bx-breadcrumb-item" id="bx_breadcrumb_1" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child" itemref="bx_breadcrumb_2">
+				<i class="fa fa-angle-right"></i>
+				<a href="/stavki/MZP" title="Ставки" itemprop="url">
+					<span itemprop="title">Ставки</span>
+				</a>
+			</div>
+			<div class="bx-breadcrumb-item" id="bx_breadcrumb_2" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child">
+				<i class="fa fa-angle-right"></i>
+				<a href="/stavki/MZP?SECTION_ID=6300" title="Официальные ставки" itemprop="url">
+					<span itemprop="title">Официальные ставки</span>
+				</a>
+			</div>
+			<div class="bx-breadcrumb-item">
+				<i class="fa fa-angle-right"></i>
+				<span>Минимальная заработная плата (МЗП) с 2000 по 2020 год</span>
+			</div><div style="clear:both"></div></div></section><div class="visible-print">
+	<img class="m-b-lg" src="/bitrix/templates/2016/images/logo.svg">
+	<p class="pull-right">
+		Документ распечатан с веб-портала:<br>
+		<u>https://uchet.kz</u>
+	</p>
+</div>
+<div class="row">
+	<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+
+<div class="panel" itemscope itemtype="http://schema.org/Article">
+	<header class="panel-heading">
+					<h1 id="docName" class="h3 m-b" itemprop="name">Минимальная заработная плата (МЗП) с 2000 по 2020 год</h1>
+
+		<ul class="hidden-print nav nav-pills pull-right bg-light lt">
+			<li><a href="#" rel="nofollow" title="Распечатать документ" onclick="window.print();"><i class="fa fa-print"></i></a></li>
+			<li><a href="/stavki/MZP?toword=Y&ELEMENT_CODE=MZP" id="save2word" rel="nofollow" title="Сохранить в Word"><i class="fa fa-file-word-o" aria-hidden="true"></i> Сохранить в word</a></li>
+			<li><a href="/liked/" id="likeThis" data-id="17912" data-sessid="8f57b087ccd1cba59ee9c295380dbfa5" rel="nofollow" title=' + в мою библиотеку'><i class="fa fa-2x fa-plus-square"></i></a></li>
+            			<li class="dropdown hide">
+				<a  class="dropdown-toggle" data-toggle="dropdown" href="#" rel="nofollow" title="Скачать файл(ы)">
+					<i class="fa fa-download" aria-hidden="true"></i>
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu dropdown-menu-right">
+					<li class="hide"><a href="/stavki/MZP?toword=Y&ELEMENT_CODE=MZP" rel="nofollow" title="Сохранить в Word"><i class="fa fa-file-word-o" aria-hidden="true"></i> Сохранить в word</a></li>
+					<li class="hide"><a href="#" rel="nofollow" title="Сохранить в PDF"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Сохранить в PDF</a></li>
+										<li class="hide" role="separator" class="divider"></li>
+										<li><a href="" rel="nofollow" title="Скачать документ" download target="_blank"><i class="fa fa-file-o" aria-hidden="true"></i> </a></li>
+														</ul>
+			</li>
+            			<li class="dropdown hide">
+				<a  class="dropdown-toggle" data-toggle="dropdown" href="#" rel="nofollow" title="Поделиться" id="favorite">
+					<i class="fa fa-share-alt"></i>
+					<span class="caret"></span>
+				</a>
+
+			</li>
+		</ul>
+
+	</header>
+	<div class="panel-body article" itemprop="articleBody">
+
+		<!--'start_frame_cache_y0XwfU'--><!--'end_frame_cache_y0XwfU'-->
+
+
+					                <div id="detailText"><table border="1" class="table table-bordered">
+<tbody>
+<tr>
+	<td colspan="1">
+ <b>Минимальная заработная плата </b>
+	</td>
+	<td colspan="1" align="center">
+ <b>Основание </b>
+	</td>
+</tr>
+<tr>
+	<td colspan="1">
+ <b>МЗП</b> <b>с 1 января 2020 года&nbsp;-&nbsp;42 500 тенге</b>
+	</td>
+	<td colspan="1">
+		 Установлен&nbsp;Законом от 4 декабря 2019 года № 276-VI&nbsp;«О республиканском бюджете на 2020-2022 годы»<br>
+	</td>
+</tr>
+<tr>
+	<td colspan="1">
+ <b>МЗП с 1 января 2019 года<span style="color: #ff0000;"> - </span></b><span style="color: #ff0000;"><b>42 500 тенге</b></span>
+	</td>
+	<td colspan="1">
+		 Установлен&nbsp;<a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z1800000197">Законом</a> от 30 ноября 2018 года № 197-VI «О республиканском бюджете на 2019-2021 год»
+	</td>
+</tr>
+<tr>
+	<td colspan="1">
+ <b>МЗП с 1 января 2018 года<span style="color: #ff0000;"> <span style="color: #000000;">- </span></span></b><span style="color: #ff0000;"><b><span style="color: #000000;">28 284 тенге</span></b></span>
+	</td>
+	<td colspan="1">
+		 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z1700000113">Законом</a> от 30 ноября 2016 года № 113-VI «О республиканском бюджете на 2018-2020 годы»
+	</td>
+</tr>
+<tr>
+	<td colspan="1">
+ <span style="color: #000000;">МЗП с 1 января 2017 года</span><span style="color: #000000;"> - 24 459 тенге</span>
+	</td>
+	<td colspan="1">
+		 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z1600000025">Законом</a> от 29 ноября 2016 года № 25-VI «О республиканском бюджете на 2017-2019 годы»
+	</td>
+</tr>
+<tr>
+	<td colspan="1">
+		 МЗП с 1 января 2016 года - 22 859 тенге
+	</td>
+	<td colspan="1">
+		 Установлен&nbsp;<a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z1500000426">Законом</a> Республики Казахстан от 30 ноября 2015 года № 426-V «О республиканском бюджете на 2016-2018 годы»
+	</td>
+</tr>
+<tr>
+	<td colspan="1">
+		 МЗП с 1 января 2015 года<span style="color: #ff0000;"> </span>-<span style="color: #ff0000;"> </span>21 364 тенге
+	</td>
+	<td colspan="1">
+		 Установлен&nbsp;<a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z1400000259">Законом</a> Республики Казахстан от 28 ноября 2014 года № 259-V «О республиканском бюджете на 2015-2017 годы»
+	</td>
+</tr>
+<tr>
+	<td>
+		<p align="left">
+			 МЗП с 1 января 2014 года - 19 966 тенге
+		</p>
+	</td>
+	<td>
+		<p align="left">
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z1300000148">Законом</a> Республики Казахстан «О республиканском бюджете на 2014 - 2016 годы»
+		</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="1">
+		 МЗП с 1 января 2013 года - 18 660 тенге
+	</td>
+	<td colspan="1">
+		 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z1200000054">Законом</a> РК от<b><i> </i></b>23 ноября 2012 года № 54-V "О республиканском бюджете на 2013-2015 годы"
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2012 года - 17 439 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z1100000496">Законом</a> РК от 24 ноября 2011 года № 496-IV "О республиканском бюджете на 2012-2014 годы"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2011 года - 15 999 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z1000000357">Законом</a> РК от 29 ноября 2010 года № 357-IV "О республиканском бюджете на 2011-2013 годы"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2010 года - 14 952 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z090000219_">Законом</a> РК от 07 декабря 2009 года № 219-IV "О республиканском бюджете на 2010-2012 годы"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2009 года - 13 470 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z080000096_">Законом</a> РК от 4 декабря 2008 года № 96-IV ЗРК "О республиканском бюджете на 2009-2011 годы"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2008 года - 10 515 тенге;
+		</p>
+		<p>
+			 МЗП с 1 июля 2008 года - 12 025 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z070000008_">Законом</a> РК от 6 декабря 2007 года № 8-IV "О республиканском бюджете на 2008 год"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2007 года - 9 752 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z060000194_">Законом</a> РК от 8 декабря 2006 года № 194-III "О республиканском бюджете на 2007 год"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2006 года - 9 200 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z050000088_">Законом</a> РК от 22.11.05 г. № 88-III "О республиканском бюджете на 2006 год"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2005 года - 7 000 тенге
+		</p>
+		<p>
+			 МЗП с 1 июля 2005 года - 9 200 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z040000003_">Законом</a> РК от 02.12.04 г. № 3-III "О республиканском бюджете на 2005 год"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2004 года - 6 600 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z030000505_">Законом</a> РК от 05.12.03 г. № 505-II "О республиканском бюджете на 2004 год"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2003 года - 5 000 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z020000362_">Законом</a> РК от 12.12.02 г. № 362-II "О республиканском бюджете на 2003 год"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2002 года - 4 181 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z010000273_">Законом</a> РК от 15.12.01 г. № 273-II "О республиканском бюджете на 2002 год"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2001 года - 3 484 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z000000131_">Законом</a> РК от 22.12.00 г. № 131-II "О республиканском бюджете на 2001 год"
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 МЗП с 1 января 2000 года - 2 680 тенге
+		</p>
+	</td>
+	<td>
+		<p>
+			 Установлен <a target="_blank" href="https://zakon.uchet.kz/rus/docs/Z990000473_">Законом</a> РК от 11.11.99 г. № 473-I "О республиканском бюджете на 2000 год"
+		</p>
+	</td>
+</tr>
+</tbody>
+</table></div>
+
+
+		<!--'start_frame_cache_2DJmFo'--><!--'end_frame_cache_2DJmFo'-->
+		<div style="clear:both"></div>
+		<br />
+
+		<div class="text-right m-t-n m-b">
+			<span class="inline m-r-sm hidden-print">Рассказать друзьям: </span>
+			<div class="hidden-print inline ya-share2" data-services="vkontakte,facebook,whatsapp,telegram" data-title="Минимальная заработная плата (МЗП) с 2000 по 2020 год"  data-description="" data-url="https://uchet.kz/stavki/MZP?ELEMENT_ID=17912"></div>
+		</div>
+
+	</div>
+	</div>
+
+
+
+				<p>
+			<a class="btn btn-link hidden-print" href="/stavki/MZP">
+				<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Возврат к списку			</a>
+		</p>
+
+
+	</div>
+	<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 hidden-print">
+
+
+		<section class="panel m-b">
+			<div class="panel-body text-center">
+				<!--'start_frame_cache_ALOAcH'--><noindex><a href="/bitrix/rk.php?id=221&amp;site_id=s1&amp;goto=https%3A%2F%2Fuchet.kz%2Fwebinar%2F%3Futm_source%3Duchet%26utm_medium%3Dbanner%26utm_campaign%3Dint_services%26utm_content%3Dwebinars" target="_blank"  rel="nofollow"><img alt="" title="" src="/upload/rk/8b1/8b109ca47d3e49163e21f26bcff4c398.gif" width="100%" style="max-width:300px;" style="max-height:300px;" style="border:0;" /></a></noindex><!--'end_frame_cache_ALOAcH'-->			</div>
+		</section>
+
+				<div class="panel hidden-print">
+				<header class="panel-header padder">
+				<a href="/week/" class="btn btn-link pull-right m-t-n-xs" title="Перейти в раздел"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+		<div class="h4 text-danger m-t-sm m-b-sm"><a href="/week/" class="text-danger">Главное</a></div>
+			</header>
+
+	<ul class="list-group alt no-border no-radius m-n">
+		<li class="list-group-item" id="bx_3218110189_581469">
+
+											<a href="/week/vebinar-bukhgalterskiy-autsorsing-kak-biznes-franshiza-uchet/" style="font-size:14px;">Вебинар: &quot;Бухгалтерский аутсорсинг как БИЗНЕС. Франшиза УЧЕТ&quot;</a>
+																		</li>
+
+		<li class="list-group-item" id="bx_3218110189_580973">
+
+											<a href="/week/vebinar-ispolzovanie-metodik-proektnogo-upravleniya-v-bukhgalterii/" style="font-size:14px;">Видеосеминар: «Использование методик проектного управления в бухгалтерии»</a>
+																		</li>
+
+		<li class="list-group-item" id="bx_3218110189_580633">
+
+											<a href="/week/uzhestochenie-karantinnykh-mer-v-kazakhstane-s-oktyabrya-2020-goda/" style="font-size:14px;">Ужесточение карантинных мер в Казахстане с октября 2020 года</a>
+																		</li>
+
+	</ul>
+
+
+			<div class="bg-success dker">
+				<section class="panel-body">
+	<header class="panel-header m-b">
+		<a href="/month/" class="h4" target="_blank">Темы месяца</a>
+	</header>
+
+	<div class="media-body">
+	      								<a href="/month/pokupka-i-prodazha-avtomobilya-2020/" class="h3" target="_blank">Покупка и продажа автомобиля </a>
+					                                <p class="m-t-lg m-b-lg" style="height: 5px;"></p>
+
+
+		</div>
+
+</section>
+			</div>
+		</div>
+
+			</div>
+</div>
+</section>		</section>
+	</section>
+</section>
+
+<!-- Modal -->
+<!-- / Modal -->
+
+<!--'start_frame_cache_Zg1Ab0'--><!--'end_frame_cache_Zg1Ab0'-->
+    <!-- COUNTER HERE -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Rating@Mail.ru counter -->
+<noscript><div style="position:absolute;left:-10000px;">
+        <img src="//top-fwz1.mail.ru/counter?id=2390348;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+    </div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+<!-- Facebook Pixel Code -->
+<noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=547627598777478&ev=PageView&noscript=1"
+    /></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+    <!-- Yandex.Metrika counter -->
+        <noscript><div><img src="https://mc.yandex.ru/watch/603442" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+<button id="srollToTop" title="Вверх">Вверх <i class="fa fa-long-arrow-up" aria-hidden="true"></i></button>
+<style type="text/css">
+    #srollToTop {
+        /* display: none; Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 60px; /* Place the button at the bottom of the page */
+        left: 20px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: rgba(0,0,0,.2); /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 5px 10px; /* Some padding */
+        border-radius: 3px; /* Rounded corners */
+        font-size: 14px; /* Increase font size */
+        width: 160px;
+    }
+
+    #srollToTop:hover {
+        background-color:  rgba(0,0,0,.4); /* Add a dark-grey background on hover */
+    }
+</style>
+
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "86220986-57f4-4b52-82c8-6e34e2fbf3c9",
+        });
+      });
+    </script>
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1584071567248810"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'UCHET_SM','SERVER_TZ_OFFSET':'21600','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1603263728','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'83430ae051d947df2f55c12889cc4592'});</script><script type="text/javascript" src="/bitrix/js/main/polyfill/customevent/main.polyfill.customevent.min.js?1576454198556"></script>
+<script type="text/javascript" src="/bitrix/js/ui/dexie/dist/dexie.bitrix.bundle.min.js?157657565860287"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_ls.min.js?15764541987365"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_fx.min.js?15764541989768"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?157701107610422"></script>
+<script type="text/javascript" src="/bitrix/js/main/utils.min.js?157645419819858"></script>
+<script type="text/javascript">
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+
+
+
+<script type="text/javascript" src="/bitrix/templates/2016/js/jquery.min.js?157645419993107"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/bootstrap.js?157645419958274"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/cookie.js?15764541993424"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/floatThead/floatThead.min.js?157645419913515"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/app.js?158865396815569"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/select2/select2.min.js?157645419960059"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/app.plugin.js?15764541997697"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/app.data.js?157950017912073"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/datepicker/bootstrap-datepicker.js?157645419913974"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/masked.js?15764541993366"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/fuelux/fuelux.js?157645419943527"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/parsley/parsley.min.js?157645419918543"></script>
+<script type="text/javascript" src="/bitrix/components/bitrix/search.title/script.min.js?15765752206443"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/components/bitrix/news/.default/bitrix/news.detail/.default/script.js?159005249128387"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/components/bitrix/news/.default/bitrix/news.detail/.default/js/FileSaver.js?15900415637383"></script>
+<script type="text/javascript" src="/bitrix/templates/2016/components/bitrix/news/.default/bitrix/news.detail/.default/js/html-docx.js?1590041563416073"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "1ccd6ae4f1a5f049f2f748b9ada07d02"]); _ba.push(["host", "uchet.kz"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+<script>new Image().src='https://ifrsconf.com/bitrix/spread.php?s=VUNIRVRfU01fR1VFU1RfSUQBMzE3OTMxNDkBMTYzNDM2NzcyOAEvAQEBAlVDSEVUX1NNX0xBU1RfVklTSVQBMjEuMTAuMjAyMCAxMzowMjowOAExNjM0MzY3NzI4AS8BAQEC&k=0950fbd15bea099baa47cd552ded2f78';
+new Image().src='https://msfoconf.com/bitrix/spread.php?s=VUNIRVRfU01fR1VFU1RfSUQBMzE3OTMxNDkBMTYzNDM2NzcyOAEvAQEBAlVDSEVUX1NNX0xBU1RfVklTSVQBMjEuMTAuMjAyMCAxMzowMjowOAExNjM0MzY3NzI4AS8BAQEC&k=0950fbd15bea099baa47cd552ded2f78';
+new Image().src='https://msfo-conf.com/bitrix/spread.php?s=VUNIRVRfU01fR1VFU1RfSUQBMzE3OTMxNDkBMTYzNDM2NzcyOAEvAQEBAlVDSEVUX1NNX0xBU1RfVklTSVQBMjEuMTAuMjAyMCAxMzowMjowOAExNjM0MzY3NzI4AS8BAQEC&k=0950fbd15bea099baa47cd552ded2f78';
+new Image().src='https://msb.kz/bitrix/spread.php?s=VUNIRVRfU01fR1VFU1RfSUQBMzE3OTMxNDkBMTYzNDM2NzcyOAEvAQEBAlVDSEVUX1NNX0xBU1RfVklTSVQBMjEuMTAuMjAyMCAxMzowMjowOAExNjM0MzY3NzI4AS8BAQEC&k=0950fbd15bea099baa47cd552ded2f78';
+</script>
+
+
+
+<script src="/bitrix/templates/2016/js/ie/respond.min.js" cache="true"></script>
+<script src="/bitrix/templates/2016/js/ie/html5.js" cache="true"></script>
+<script src="/bitrix/templates/2016/js/ie/fix.js" cache="true"></script>
+<script data-ad-client="ca-pub-5626955781556447" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script type="text/javascript">
+var jsControl_047d514cb78d27614405030735c0b002 = new JCTitleSearch({
+  //'WAIT_IMAGE': '/bitrix/themes/.default/images/wait.gif',
+  'AJAX_PAGE' : '/stavki/MZP?ELEMENT_CODE=MZP',
+  'CONTAINER_ID': 'title-search',
+  'INPUT_ID': 'title-search-input',
+  'MIN_QUERY_LEN': 2
+});
+</script><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-30521283-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-30521283-1');
+</script>
+
+<script type="text/javascript">//<![CDATA[
+    var _tmr = _tmr || [];
+    _tmr.push({id: "2390348", type: "pageView", start: (new Date()).getTime()});
+    (function (d, w) {
+        var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true;
+        ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+        var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+        if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+    })(document, window);
+    //]]></script><script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '547627598777478'); // Insert your pixel ID here.
+    fbq('track', 'PageView');
+</script>
+<script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(603442, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+<script type="text/javascript" src="/bitrix/templates/2016/js/oncopy.js?06012019150000"></script>
+<script>
+    //  .scrollable
+    $('#srollToTop').click (function(){
+        if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+            });
+        } else {
+            $('section.scrollable').animate({ scrollTop: (0) }, 'slow');
+        }
+        console.log('ha-fa-na-na');
+    });
+</script>
+</body>
+<style>
+.NewsCalDefault {padding:6px;}
+
+/*
+html {
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%);
+}
+*/
+
+</style>
+</html>

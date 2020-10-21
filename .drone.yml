@@ -1,8 +1,8 @@
 kind: pipeline
-name: doc-dict
+name: buhuch
 
 steps:
-  - name: doct-dict-test
+  - name: buh-test
     pull: if-not-exists
     image: python:3.7
     commands:
