@@ -10,7 +10,6 @@ Usage:
     >>> data = scraper.get_bills()  # Scrape the bills
     >>> scraper.save(data)  # Save it in json file which you set before
 """
-import dataclasses
 import json
 from typing import Dict, Optional, Union
 
@@ -34,7 +33,7 @@ class BillsScraper:
         """
         bills_json = []
         for bill in bills:
-            bills_json.append(dataclasses.asdict(bill))
+            bills_json.append(bill.as_dict())
 
         with open(self.filename, "w+") as f:
             f.truncate()

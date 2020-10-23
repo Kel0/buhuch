@@ -14,8 +14,11 @@ def install(arg):
 
 @invoke.task(name="format")
 def format_(arg):
-    autoflake = "autoflake -i --recursive --remove-all-unused-imports --remove-duplicate-keys --remove-unused-variables"
-    arg.run(f"{autoflake} {PACKAGE} tests", echo=True)
+    auto_flake = (
+        "autoflake -i --recursive --remove-all-unused-imports "
+        "--remove-duplicate-keys --remove-unused-variables"
+    )
+    arg.run(f"{auto_flake} {PACKAGE} tests", echo=True)
     arg.run(f"isort {PACKAGE} tests", echo=True)
     arg.run(f"black {PACKAGE} tests", echo=True)
 
