@@ -1,11 +1,11 @@
 import pytest
 
-from buhuch.utils import scrape_min_salary
+from hestia.utils import scrape_min_salary
 
 
 @pytest.fixture
 def mock_requests(mocker, helpers):
-    mock_requests = mocker.patch("buhuch.utils.requests")
+    mock_requests = mocker.patch("hestia.utils.requests")
     mock_requests.get.return_value.status_code = 200
     mock_requests.get.return_value.content = helpers.txt_to_bytes(
         "samples/min_salary_response.txt"

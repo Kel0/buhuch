@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salary calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        html,
+        body{
+            height: 100%;
+        }
+
+        #cover {
+            background: #222 url('../img/stars.jpg') center center no-repeat;
+            background-size: cover;
+            color: white;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+
+        #cover-caption {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section id="cover">
+        <div id="cover-caption">
+            <div id="container" class="container">
+                <div class="row">
+                    <div class="col-sm-10 offset-sm-1 text-center">
+                        <h1 class="display-3">Salary tax calculator</h1>
+                        <div class="info-form">
+                            <form class="form-inline justify-content-center" id="submit_form">
+                                <div class="form-group">
+                                    <label class="sr-only">Name</label>
+                                    <input type="number" class="form-control" placeholder="Enter salary" id="salary_input">
+                                </div>
+                                <button type="button" class="btn btn-success" onclick="post_salary(salary_input.value)">Calculate</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const post_salary = async salary => {
+            console.log(salary);
+            await fetch(`${window.origin}/pdf_export`, {
+                method: "POST",
+                credentials: "include",
+                body: JSON.stringify({"salary": parseInt(salary)}),
+                cache: "no-cache",
+                headers: new Headers({
+                    "content-type": "application/json"
+                })
+            })
+            .then(async res => ({
+                filename: fnGetFileNameFromContentDispostionHeader(res.headers.get('content-disposition')),
+                blob: await res.blob()
+            }))
+            .then(resObj => {
+                // It is necessary to create a new blob object with mime-type explicitly set for all browsers except Chrome, but it works for Chrome too.
+                const newBlob = new Blob([resObj.blob], { type: 'application/pdf' });
+
+                // MS Edge and IE don't allow using a blob object directly as link href, instead it is necessary to use msSaveOrOpenBlob
+                if (window.navigator && window.navigator.msSaveOrOpenBlob) {
+                    window.navigator.msSaveOrOpenBlob(newBlob);
+                } else {
+                    // For other browsers: create a link pointing to the ObjectURL containing the blob.
+                    const objUrl = window.URL.createObjectURL(newBlob);
+
+                    let link = document.createElement('a');
+                    link.href = objUrl;
+                    link.download = resObj.filename;
+                    link.click();
+
+                    // For Firefox it is necessary to delay revoking the ObjectURL.
+                    setTimeout(() => { window.URL.revokeObjectURL(objUrl); }, 250);
+                }
+            })
+            .catch((error) => {
+                console.log('DOWNLOAD ERROR', error);
+            });
+        }
+
+        const fnGetFileNameFromContentDispostionHeader = function (header) {
+            let contentDispostion = header.split(';');
+            const fileNameToken = `filename*=UTF-8''`;
+
+            let fileName = 'downloaded.pdf';
+            for (let thisValue of contentDispostion) {
+                if (thisValue.trim().indexOf(fileNameToken) === 0) {
+                    fileName = decodeURIComponent(thisValue.trim().replace(fileNameToken, ''));
+                    break;
+                }
+            }
+
+            return fileName;
+        };
+    </script>
+</body>
+</html>

@@ -2,7 +2,7 @@ from unittest.mock import Mock
 
 import pytest
 
-from buhuch.bills.bills_scraper import BillsScraper
+from hestia.bills.bills_scraper import BillsScraper
 
 
 @pytest.fixture
@@ -17,7 +17,7 @@ def mock_bills_requests_get(mocker, helpers):
 
 @pytest.fixture
 def mock_bills_requests(mocker, mock_bills_requests_get):
-    mock_bills_requests = mocker.patch("buhuch.bills.bills_scraper.requests")
+    mock_bills_requests = mocker.patch("hestia.bills.bills_scraper.requests")
     mock_bills_requests.get = mock_bills_requests_get
     return mock_bills_requests
 

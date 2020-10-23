@@ -5,7 +5,7 @@ Bills scraper
 This module provides the bills scraper
 
 Usage:
-    >>> from buhuch.bills.bills_scraper import BillsScraper
+    >>> from hestia.bills.bills_scraper import BillsScraper
     >>> scraper = BillsScraper(filename="my_bills")  # it's optional arg.
     >>> data = scraper.get_bills()  # Scrape the bills
     >>> scraper.save(data)  # Save it in json file which you set before

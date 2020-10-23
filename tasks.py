@@ -3,7 +3,7 @@ import invoke
 from pathlib import Path
 
 
-PACKAGE = "buhuch"
+PACKAGE = "hestia"
 REQUIRED_COVERAGE = 90
 
 

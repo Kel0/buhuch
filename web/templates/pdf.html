@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .container {
+            margin: 0 auto;
+            width: 80vw;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <legend>Worker's taxes</legend> Salary: {{ salary }}
+        <table class="table" style="text-align: center;">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Credit</th>
+                <th>Debit</th>
+                <th>Sum</th>
+                <th>Final salary</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Superannuation</td>
+                <td>{{ superannuation.schema.debit }}</td>
+                <td>{{ superannuation.schema.credit }}</td>
+                <td>{{ superannuation.value }}</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Personal income tax</td>
+                <td>{{ personal_income_tax.schema.debit }}</td>
+                <td>{{ personal_income_tax.schema.credit }}</td>
+                <td>{{ personal_income_tax.value }}</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Health insurance value</td>
+                <td>{{ health_insurance.schema.debit }}</td>
+                <td>{{ health_insurance.schema.credit }}</td>
+                <td>{{ health_insurance.value }}</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>{{ final_salary }}</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <legend>Employer's taxes</legend> Salary: {{ salary }}
+        <table class="table" style="text-align: center;">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Credit</th>
+                <th>Debit</th>
+                <th>Sum</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Social deductions</td>
+                <td>{{ social_deductions.schema.debit }}</td>
+                <td>{{ social_deductions.schema.credit }}</td>
+                <td>{{ social_deductions.value }}</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Compulsory social health insurance</td>
+                <td>{{ compulsory_social_health_insurance.schema.debit }}</td>
+                <td>{{ compulsory_social_health_insurance.schema.credit }}</td>
+                <td>{{ compulsory_social_health_insurance.value }}</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Social tax</td>
+                <td>{{ social_contributions.schema.debit }}</td>
+                <td>{{ social_contributions.schema.credit }}</td>
+                <td>{{ social_contributions.value }}</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Superannuation employer</td>
+                <td>{{ superannuation_employer.schema.debit }}</td>
+                <td>{{ superannuation_employer.schema.credit }}</td>
+                <td>{{ superannuation_employer.value }}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
