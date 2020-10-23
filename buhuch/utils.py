@@ -27,4 +27,4 @@ def scrape_min_salary(year: int) -> float:
             min_salary_value = re.findall(r".*-\s([\d\w\s]+)\s\D+$", min_salary_text)
             return float(min_salary_value[0].replace(" ", ""))
 
-    return 0
+    return 0  # pragma: no cover
