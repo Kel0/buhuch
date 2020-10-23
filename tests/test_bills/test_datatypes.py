@@ -1,4 +1,4 @@
-from buhuch.bills.datatypes import (  # isort:skip
+from hestia.bills.datatypes import (  # isort:skip
     Bill,
     BillItem,
     SalaryTaxCalculatorMixinBillsAlias,

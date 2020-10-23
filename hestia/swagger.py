@@ -8,6 +8,9 @@ from .bills.datatypes import (  # isort:skip
     SalaryTaxSchema,
 )
 
+_mrp = 25
+_mrp_value = _mrp * 2651
+
 
 class SalaryTaxCalculatorMixin:
     def __init__(
@@ -100,6 +103,18 @@ class SalaryTaxCalculatorMixin:
             self.alias_mixin.compulsory_health_insurance_value,
         )
 
+    def superannuation_employer(self):
+        """
+        Formula for calculate superannuation from employer formula:
+            (salary * 0.05)
+        :return superannuation_employer_value: Compulsory social health insurance value
+        """
+        superannuation_employer_value = self.salary * 0.05
+        return (
+            superannuation_employer_value,
+            self.alias_mixin.superannuation,
+        )
+
     def find_final_salary(self, as_dict: bool = True) -> Tuple[float, dict]:
         """
         Calculates final salary
@@ -120,6 +135,11 @@ class SalaryTaxCalculatorMixin:
             personal_income_tax_value,
             personal_income_tax_schema,
         ) = self.personal_income_tax()
+
+        (
+            superannuation_employer_value,
+            superannuation_employer_schema,
+        ) = self.superannuation_employer()
 
         final_salary_value = (
             self.salary
@@ -153,6 +173,10 @@ class SalaryTaxCalculatorMixin:
                 "value": personal_income_tax_value,
                 "schema": personal_income_tax_schema.as_dict(),
             },
+            "superannuation_employer": {
+                "value": superannuation_employer_value,
+                "schema": superannuation_employer_schema.as_dict(),
+            },
         }
         if not as_dict:  # pragma: no cover
             schema = {
@@ -179,6 +203,10 @@ class SalaryTaxCalculatorMixin:
                 "personal_income_tax": {
                     "value": personal_income_tax_value,
                     "schema": personal_income_tax_schema,
+                },
+                "superannuation_employer": {
+                    "value": superannuation_employer_value,
+                    "schema": superannuation_employer_schema,
                 },
             }
 
