@@ -48,7 +48,7 @@ class SalaryTaxCalculatorMixin:
         :return income_value: Income tax value
         """
         corrections_value: float = 0
-        if self.salary < 65500:
+        if self.salary < _mrp_value:
             corrections_value = self.corrections()
         superannuation_value, _ = self.superannuation()
 
