@@ -1,26 +1,28 @@
-# Введение
-Данный проект представляет из себя калькулятор суммы списаний и удержаний с ЗП
+# Hestia
+Веб калькулятор налогов налогаемых на заработную плату
 
-# Понятия
-ЗП - заработная плата
+# Dependencies
 
-# Тема
-<strong>Счет списаний и удержаний с заработной платы</strong>
+### Programming language
+- [python](https://www.python.org/)
 
-# Ресурсы
-1. Актуальные счета взяты с [сайта](https://pro1c.kz/articles/mezhdunarodnye-standarty-finansovoy-otchetnosti/tipovoy-plan-schetov-s-2019-goda/)
-\
-Список будет пополняться...
+### Code style formatters
+- [autoflake](https://github.com/myint/autoflake)
+- [flake8](https://github.com/PyCQA/flake8)
+- [isort](https://pycqa.github.io/isort/)
+- [black](https://black.readthedocs.io/en/stable/installation_and_usage.html)
 
-# Строение проекта
-1. Package buhuch - Пакет где будут происходить все вычесления
-2. Package web - Веб интерфейс данного проекта
-3. Package tests - Пакет юнит и интеграционных тестов
+### Web framework
+- [flask](https://flask.palletsprojects.com/en/1.1.x/)
 
-# Стороний "помощники"
-1. Контроль версий - github
-2. Контроль кода по PEP - autoflake flake8 isort black
-3. Контроль типов по PEP - mypy
+### Reverse proxy
+- [nginx](nginx)
 
-# Архитектура
-...
+### WSGI server
+- [gunicorn](https://gunicorn.org/)
+
+### Containerized application
+- [Docker](https://www.docker.com/)
+
+### App example
+- [Follow link](http://2.59.40.4:3010/salary)
