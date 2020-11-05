@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  hestia_web:
+    build:
+      context: .
+      dockerfile: ./docker/Web.Dockerfile
+    volumes:
+    - ./:/usr/src/app
+    ports:
+    - 3010:3010
+    env_file:
+    - .env
+    restart: always

@@ -1,6 +1,7 @@
 import sys
 
 from flask import Flask, make_response, render_template, request
+from pyvirtualdisplay import Display
 
 sys.path.append("../buhuch")
 
@@ -13,6 +14,9 @@ calculator = SalaryTaxCalculatorMixin()
 
 
 def export_pdf(salary: int):
+    display = Display(visible=0, size=(800, 600))
+    display.start()
+
     calculator.salary = salary
     final_salary_value, schema = calculator.find_final_salary(as_dict=True)
 
@@ -20,6 +24,8 @@ def export_pdf(salary: int):
         "pdf.html", salary=salary, final_salary=final_salary_value, **schema
     )
     pdf = pdfkit.from_string(html, False)
+    display.stop()
+
     response = make_response(pdf)
     response.headers.update(  # type: ignore
         {
