@@ -1,6 +1,8 @@
 # Hestia
 Веб калькулятор налогов налогаемых на заработную плату
 
+![Gif](https://github.com/Kel0/buhuch/blob/master/buhuch.gif)
+
 # Dependencies
 
 ### Programming language
